@@ -3,7 +3,7 @@
 {% block content %}
 	<div class="row mb-4">
 		<div class="col-8 text-left">
-			<h1 class="display-2 text-info">Vincent <strong>RONXIN</strong></h1>
+			<h1 class="text-info">Vincent <strong>RONXIN</strong></h1>
 			<address>
 				Calle Antonio Salvador, 14, 2A
 				<br>28026 Madrid, España
@@ -14,30 +14,91 @@
 		
 		<div class="col-4 text-right">
 			{% load static %}
-			<img src="{% static "fotografia.png" %}" alt="Fotografía" class="img-thumbnail" width="200">
+			<img src="{% static "img/fotografia.png" %}" alt="Fotografía" class="img-thumbnail" width="200">
 		</div>
 	</div>
 	
-	<h2 class="display-4 text-info mb-5">Desarrollador web y cloud</h2>
+	<h2 class="font-weight-normal text-info mb-5">Desarrollador web y cloud</h2>
 	
 	<h3 class="text-info text-uppercase block-title">Educación</h3>
 	<ul>
-		<li class="font-weight-bold text-info">test1</li>
-		<li class="font-weight-bold text-info">test2</li>
+		<li class="font-weight-bold text-info">septiembre 2013 - junio 2014</li>
+		<li class="font-weight-bold list-unstyled">Licencia Profesional (titulo postgrado de 3 años)</li>
+		<ul class="mb-4">
+			<li class="list-unstyled">
+				Sistemas de Información y Aplicaciones, especialización en Servicios Web
+				<br>Universidad de Versalles Saint-Quentin, 78140, Vélizy-Villacoublay, Francia
+			</li>
+		</ul>
+		
+		<li class="font-weight-bold text-info">septiembre 2011 - junio 2013</li>
+		<li class="font-weight-bold list-unstyled">Brevet de Technicien Supérieur (titulo postgrado de 2 años)</li>
+		<ul class="mb-4">
+			<li class="list-unstyled">
+				Sistemas de Información y Aplicaciones, especialización en Ingeniería de Software
+				<br>EPSI París, 92300, Levallois-Perret, Francia
+			</li>
+		</ul>
+		
+		<li class="font-weight-bold text-info">septiembre 2007 - junio 2011</li>
+		<li class="font-weight-bold list-unstyled">Baccalauréat professionnel (bachiller académico)</li>
+		<ul>
+			<li class="list-unstyled">
+				Magna Cum Laude
+				<br>Liceo Louis Bascan, 78120, Rambouillet, Francia
+			</li>
+		</ul>
 	</ul>
 	
 	<h3 class="text-info text-uppercase block-title">Experencias</h3>
 	<ul>
-		<li class="font-weight-bold text-info">test1</li>
-		<li class="font-weight-bold text-info">test2</li>
+		<li class="font-weight-bold text-info">febrero 2017 - hoy</li>
+		<li class="font-weight-bold list-unstyled">Desarrollador senior en Sopra Steria España</li>
+		<ul class="mb-4">
+			<li class="list-unstyled">
+				Creación de una aplicación para la Sociedad Nacional de Ferrocarriles Franceses en Angular 2 para el front-end y Java con Spring Boot para el back-end.
+				Metodología Agile con pruebas automatizadas y despliegue DevOps con Jenkins.
+			</li>
+		</ul>
+		
+		<li class="font-weight-bold text-info">enero 2016 - diciembre 2016</li>
+		<li class="font-weight-bold list-unstyled">Desarrollador cloud y web senior, Arquitecto de soluciones cloud junior en Sogeti Francía</li>
+		<ul class="mb-4">
+			<li class="list-unstyled">
+				Creación de una API REST con PHP y MongoDB. Crear y configurar varios entornos (desarrollo, pruebas, pre-producción, producción).
+				<br>Gestionar los servicios en la nube con IBM Bluemix vinculados con las aplicaciones desplegadas y la integración de las APIs o sistemas externos de los clientes.
+				<br>Creación de una aplicación back-end con AngularJS conectada a una API REST.
+			</li>
+		</ul>
+		
+		<li class="font-weight-bold text-info">octubre 2013 - enero 2016</li>
+		<li class="font-weight-bold list-unstyled">Desarrollador web junior en Sogeti Francía</li>
+		<ul>
+			<li class="list-unstyled">
+				Creación de una aplicación para gestionar el negocio de una empresa de doblaje.
+				<br>Refactorización de un portal de gestión de flotas de vehiculos conectados (M2M).
+			</li>
+		</ul>
 	</ul>
 	
 	<h3 class="text-info text-uppercase block-title">Competencias</h3>
-	<ul>
-		<li class="font-weight-bold text-info">test1</li>
-		<li class="font-weight-bold text-info">test2</li>
-	</ul>
+	<div class="row align-items-center">
+		<div class="col-3"><img class="img-fluid" src="{% static "img/php-logo.png" %}" alt="PHP"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/zf-logo.png" %}" alt="Zend Framework"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/git-logo.png" %}" alt="Git"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/mysql-logo.png" %}" alt="MySQL"></div>
+	</div>
+	<div class="row align-items-center">
+		<div class="col-3"><img class="img-fluid" src="{% static "img/mongodb-logo.png" %}" alt="MongoDB"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/jquery-logo.png" %}" alt="jQuery"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/bluemix-logo.png" %}" alt="IBM Bluemix"></div>
+		<div class="col-3"><img class="img-fluid" src="{% static "img/nodejs-logo.png" %}" alt="NodeJS"></div>
+	</div>
 	
 	<h3 class="text-info text-uppercase block-title">Idiomas</h3>
-	Lorem ipsum
+	<ul class="list-unstyled">
+		<li><strong>Español</strong> : nivel alto</li>
+		<li><strong>Inglés</strong> : nivel alto</li>
+		<li><strong>Francés</strong> : lengua materna</li>
+	</ul>
 {% endblock %}
